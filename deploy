@@ -1,0 +1,2 @@
+SITE=wishlist.xlcollaborative.com
+rsync -a --delete --exclude .git . "$SITE:/var/www/$SITE/"
